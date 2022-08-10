@@ -2,6 +2,7 @@
   "name": "cra-template-redux",
   "version": "2.0.0",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier --write ./template/src/**/*.js",
     "lint": "cross-env NODE_ENV=development eslint ./template/src/**/*.js",
     "test": "jest"
@@ -57,5 +58,12 @@
     "react-redux": "^8.0.2",
     "react-test-renderer": "^18.0.0",
     "redux": "^4.1.2"
-  }
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
